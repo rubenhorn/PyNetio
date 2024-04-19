@@ -44,7 +44,7 @@ to set the output use either action, or integer value
 To read the states of the outputs
 ```pydocstring
 >>> for x in range(4):
->>>    print(n.get_output(x))
+>>>    print(n.get_output(x + 1))
 Output(ID=1, Name='out_1', State=1, Action=1, Delay=500, Current=0, PowerFactor=0.0, Load=0, Energy=13346833)
 Output(ID=2, Name='out_2', State=0, Action=0, Delay=500, Current=0, PowerFactor=0.0, Load=0, Energy=2311032)
 Output(ID=3, Name='out_3', State=1, Action=1, Delay=500, Current=8610, PowerFactor=1.0, Load=2062, Energy=11387035)
